@@ -785,7 +785,6 @@ sets.midcast['Blue Magic'].PhysicalAcc.Resistant = set_combine(sets.midcast['Blu
 	ring2 = "Strendu Ring",
 	ring1 = "Acumen Ring",
 	back = gear.mab_jse_back,
-	waist = "Yamabuki-no-obi",
 	--legs = "Gyve Trousers",
 	legs = "Jhakri Slops +2",
 	feet = "Jhakri Pigaches +2",

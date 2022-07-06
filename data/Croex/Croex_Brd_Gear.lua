@@ -3,7 +3,7 @@ function user_setup()
     state.OffenseMode:options('Normal','Acc')
     state.CastingMode:options('Normal','Resistant','AoE')
     state.IdleMode:options('Normal','PDT')
-	state.Weapons:options('Carnwenhan','None','DualWeapons','Swords','NukeWeapons','Aeolian')
+	state.Weapons:options('Carnwenhan','None','SavageBlade','DualWeapons','Swords','NukeWeapons','Aeolian')
 
 	-- Adjust this if using the Terpander (new +song instrument)
     info.ExtraSongInstrument = 'Daurdabla'
@@ -22,6 +22,7 @@ function user_setup()
 	send_command('bind !q gs c weapons NukeWeapons;gs c update')
 	send_command('bind ^q gs c weapons Swords;gs c update')
 
+	autows = "Mordant Rime"
 	select_default_macro_book()
 	set_lockstyle_custom(4)
 end
@@ -37,6 +38,7 @@ function init_gear_sets()
 	--sets.weapons.Aeneas = {main="Aeneas",sub="Crepuscolar Knife"}
 	sets.weapons.DualWeapons = {main="Carnwenhan",sub="Crepuscolar Knife"}
 	sets.weapons.Aeolian = {main={ name="Malevolence", augments={'INT+3','Mag. Acc.+5','"Mag.Atk.Bns."+7',}},sub="Aeneas"}
+	sets.weapons.SavageBlade = {main="Naegling",sub="Aeneas"}
 	sets.weapons.Swords = {main="Naegling",sub="Crepuscolar Knife"}
 	sets.weapons.NukeWeapons = {
 		--main = "Malevolence",
