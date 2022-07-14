@@ -1316,6 +1316,7 @@ sets.TreasureHunter = set_combine(sets.TreasureHunter, {
 			}
 		},
 		--body={ name="Herculean Vest", augments={'STR+3','AGI+7','"Treasure Hunter"+1','Accuracy+19 Attack+19',}},
+		ammo="Perfect Lucky Egg",
 		head="White Rarab Cap +1",
 		waist="Chaac Belt"
 	})
