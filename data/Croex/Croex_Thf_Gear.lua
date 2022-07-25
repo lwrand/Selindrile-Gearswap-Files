@@ -45,8 +45,17 @@ function init_gear_sets()
 		main={ name="Taming Sari", augments={'STR+1','"Treasure Hunter"+1',}},
 		sub={ name="Taming Sari", augments={'STR+5','DEX+8','DMG:+8',}},
 		hands = "Plunderer's Armlets +1",
-		waist = "Chaac Belt"
-		--feet = "Skulk. Poulaines +1"
+		waist = "Chaac Belt",
+		legs = {
+			name = "Herculean Trousers",
+			augments = {
+				'"Repair" potency +2%',
+				'Sklchn.dmg.+3%',
+				'"Treasure Hunter"+1',
+				'Accuracy+15 Attack+15',
+				'Mag. Acc.+12 "Mag.Atk.Bns."+12',
+			}
+		}
 	}
     sets.ExtraRegen = {}
     sets.Kiting = {feet="Jute Boots +1"}
