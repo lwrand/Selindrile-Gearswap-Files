@@ -24,15 +24,15 @@ state.ExtraMeleeMode = M {
 	'DWMax'
 }
 
---gear.da_jse_back = {
---	name = "Rosmerta's Cape",
---	augments = {
---		'DEX+20',
---		'Accuracy+20 Attack+20',
---		'Accuracy+10',
---		'"Dbl.Atk."+10',
---	}
---}
+gear.da_jse_back = {
+	name = "Rosmerta's Cape",
+	augments = {
+		'DEX+20',
+		'Accuracy+20 Attack+20',
+		'Accuracy+10',
+		'"Dbl.Atk."+10',
+	}
+}
 gear.stp_jse_back = {
 	name = "Rosmerta's Cape",
 	augments = {
@@ -665,8 +665,8 @@ sets.midcast['Blue Magic'].Physical = {
 	head = "Jhakri Coronal +2",
 	--neck = "Caro Necklace",
 	neck = "Sanctity Necklace",
-	ear1 = "Bladeborn Earring",
-	ear2 = "Steelflash Earring",
+	--ear1 = "Bladeborn Earring",
+	--ear2 = "Steelflash Earring",
 	body = "Jhakri Robe +2",
 	hands = "Jhakri Cuffs +2",
 	--ring1 = "Ifrit Ring +1",
