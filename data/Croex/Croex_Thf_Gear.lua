@@ -45,17 +45,18 @@ function init_gear_sets()
 	sets.TreasureHunter = {
 		hands = "Plunderer's Armlets +1",
 		waist = "Chaac Belt",
-		ammo = "Perfect Lucky Egg"
-		--legs = {
-		--	name = "Herculean Trousers",
-		--	augments = {
-		--		'"Repair" potency +2%',
-		--		'Sklchn.dmg.+3%',
-		--		'"Treasure Hunter"+1',
-		--		'Accuracy+15 Attack+15',
-		--		'Mag. Acc.+12 "Mag.Atk.Bns."+12',
-		--	}
-		--}
+		--ammo = "Perfect Lucky Egg"
+		--feet = "Skulker's Poulaines +1",
+		legs = {
+			name = "Herculean Trousers",
+			augments = {
+				'"Repair" potency +2%',
+				'Sklchn.dmg.+3%',
+				'"Treasure Hunter"+1',
+				'Accuracy+15 Attack+15',
+				'Mag. Acc.+12 "Mag.Atk.Bns."+12',
+			}
+		}
 	}
     sets.ExtraRegen = {}
     sets.Kiting = {feet="Jute Boots +1"}
@@ -149,7 +150,7 @@ function init_gear_sets()
 
     -- Default set for any weaponskill that isn't any more specifically defined
     sets.precast.WS = {
-    	ammo = "C. Palug Stone",
+    	range = "Antitail +1",
     	head = "Adhemar Bonnet +1",
     	neck = "Caro Necklace",
     	ear1 = "Odr Earring",
@@ -360,9 +361,7 @@ function init_gear_sets()
     -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 
     sets.idle = {
-       	main={name="Taming Sari", augments={'STR+1','"Treasure Hunter"+1',}},
-		sub={name="Taming Sari", augments={'STR+5','DEX+8','DMG:+8',}},
-		ammo="Yamarang",
+		range="Antitail +1",
 		head="Malignance Chapeau",
 		body="Malignance Tabard",
 		hands="Malignance Gloves",
@@ -410,7 +409,7 @@ function init_gear_sets()
     -- Normal melee group
 	
 	sets.engaged = {
-    	ammo = "Yamarang",
+    	range = "Antitail +1",
     	head = "Adhemar Bonnet +1",
     	neck = "Lissome Necklace",
     	ear1 = "Eabani Earring",
@@ -426,7 +425,7 @@ function init_gear_sets()
     }
 	
 	sets.engaged.SomeAcc = {
-    	ammo = "Yamarang",
+    	range = "Antitail +1",
     	head = "Adhemar Bonnet +1",
     	neck = "Lissome Necklace",
     	ear1 = "Eabani Earring",
@@ -443,7 +442,7 @@ function init_gear_sets()
 	
     sets.engaged.Acc = {
     	--ammo="Staunch Tathlum",
-		ammo="Yamarang",
+		range = "Antitail +1",
 		head="Malignance Chapeau",
 		body="Malignance Tabard",
 		hands="Malignance Gloves",
@@ -462,7 +461,7 @@ function init_gear_sets()
 			
     sets.engaged.FullAcc = {
     	--ammo="Staunch Tathlum",
-		ammo="Yamarang",
+		range = "Antitail +1",
 		head="Malignance Chapeau",
 		body="Malignance Tabard",
 		hands="Malignance Gloves",
