@@ -73,7 +73,7 @@ function init_gear_sets()
 	})
 	
 	sets.precast.FC.BardSong = {
-		head="Fili Calot +1",
+		head="Fili Calot +2",
 		body="Inyanga Jubbah +2",
 		hands="Gendewitha Gages +1",
 		legs="Aya. Cosciales +2",
@@ -279,11 +279,11 @@ function init_gear_sets()
 	sets.midcast['Horde Lullaby II'].Resistant = set_combine(sets.midcast['Horde Lullaby'], {range="Gjallarhorn"})
 	sets.midcast['Horde Lullaby II'].AoE = {range=info.ExtraSongInstrument}
 	sets.midcast.Ballad = {legs="Fili Rhingrave +1"}
-	sets.midcast.Madrigal = {head="Fili Calot +1", ear1="Kuwunga Earring"}
+	sets.midcast.Madrigal = {head="Fili Calot +2", ear1="Kuwunga Earring"}
 	sets.midcast.Paeon = {head="Brioso Roundlet +3"}
-	sets.midcast.March = {hands="Fili Manchettes +1"}
+	sets.midcast.March = {hands="Fili Manchettes +2"}
 	sets.midcast['Honor March'] = set_combine(sets.midcast.March,{range="Marsyas"})
-	sets.midcast.Minuet = {body="Fili Hongreline +1"}
+	sets.midcast.Minuet = {body="Fili Hongreline +2"}
 	sets.midcast.Minne = {
 		legs = "Mousai Seraweels"
 	}
@@ -308,9 +308,9 @@ function init_gear_sets()
 	-- For song buffs (duration and AF3 set bonus)
 	sets.midcast.SongEffect = {
 		range="Gjallarhorn",
-		head="Fili Calot +1",
-		body="Fili Hongreline +1",
-		hands="Fili Manchettes +1",
+		head="Fili Calot +2",
+		body="Fili Hongreline +2",
+		hands="Fili Manchettes +2",
 		legs="Inyanga Shalwar +2",
 		feet="Brioso Slippers +3",
 		waist="Flume Belt +1",
@@ -494,11 +494,11 @@ function init_gear_sets()
 	-- Resting sets
 	sets.resting = {
 		ammo = "Staunch Tathlum",
-		head = "Fili Calot +1",
+		head = "Fili Calot +2",
 		neck = "Loricate Torque +1",
 		--ear1 = "Etiolation Earring",
 		ear2 = "Ethereal Earring",
-		body = "Fili Hongreline +1",
+		body = "Fili Hongreline +2",
 		hands = gear.chironic_refresh_hands,
 		ring1 = "Defending Ring",
 		ring2 = "Dark Ring",
@@ -514,7 +514,7 @@ function init_gear_sets()
 		neck = "Loricate Torque +1",
 		--ear1 = "Etiolation Earring",
 		--ear2 = "E eal Earring",
-		--body = "Fili Hongreline +1",
+		--body = "Fili Hongreline +2",
 		--hands = gear.chironic_refresh_hands,
 		ring1 = "Defending Ring",
 		ring2 = "Dark Ring",
@@ -534,7 +534,7 @@ function init_gear_sets()
 		neck = "Loricate Torque +1",
 		--ear1 = "Etiolation Earring",
 		ear2 = "Ethereal Earring",
-		body = "Fili Hongreline +1",
+		body = "Fili Hongreline +2",
 
 		ring1 = "Defending Ring",
 		ring2 = "Dark Ring",
@@ -558,7 +558,7 @@ function init_gear_sets()
 		neck = "Loricate Torque +1",
 		--ear1 = "Etiolation Earring",
 		ear2 = "Ethereal Earring",
-		body = "Fili Hongreline +1",
+		body = "Fili Hongreline +2",
 		hands = gear.chironic_refresh_hands,
 		ring1 = "Defending Ring",
 		ring2 = "Dark Ring",
@@ -576,7 +576,7 @@ function init_gear_sets()
 		neck = "Loricate Torque +1",
 		--ear1 = "Etiolation Earring",
 		ear2 = "Ethereal Earring",
-		body = "Fili Hongreline +1",
+		body = "Fili Hongreline +2",
 		hands = gear.chironic_refresh_hands,
 		ring1 = "Defending Ring",
 		ring2 = "Dark Ring",

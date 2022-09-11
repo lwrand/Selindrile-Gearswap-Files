@@ -413,7 +413,7 @@ function init_gear_sets()
     	head = "Adhemar Bonnet +1",
     	neck = "Lissome Necklace",
     	ear1 = "Eabani Earring",
-		ear2 = "Ethereal Earring",
+		ear2 = "Skulker's Earring",
     	body = "Adhemar Jacket +1",
     	hands = "Adhemar Wrist. +1",
     	ring1 = "Epona's Ring",
