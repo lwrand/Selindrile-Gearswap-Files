@@ -43,3 +43,24 @@ sets.items = {
 	item10="",
 	}
 ]]
+
+sets.crafting = {
+	ring1 = "Craftkeeper's Ring",
+	ring2 = "Artificer's Ring",
+	back = "Shaper's Shawl"
+}
+
+sets.crafting.HQ = {
+	ring1 = "Craftmaster's Ring"
+}
+
+sets.crafting.Cooking = {
+	main = "Debahocho +1",
+    sub = "Chef's Shield",
+	head = "Chef's Hat",
+	neck = "Culin. Torque",
+	body = "Culinarian's Smock",
+}
+sets.crafting.Cooking.NQ = {
+	ring1 = "Chef's Ring"
+}

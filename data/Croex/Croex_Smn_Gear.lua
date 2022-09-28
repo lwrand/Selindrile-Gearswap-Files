@@ -69,7 +69,7 @@ function init_gear_sets()
 		main = "Nirvana",
 		sub = "Elan Strap +1",
 		ammo = "Sancus Sachet +1",
-		head = "Beckoner's Horn +1",
+		head = "Beckoner's Horn +2",
 		neck = "Incanter's Torque",
 		ear1 = "Andoaa Earring",
 		ear2 = "Cath Palug earring",
@@ -127,7 +127,7 @@ function init_gear_sets()
     -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
     sets.precast.WS['Myrkr'] = {
     	ammo = "Sancus Sachet +1",
-    	head = "Beckoner's Horn +1",
+    	head = "Beckoner's Horn +2",
     	neck = "Sanctity Necklace",
     	--ear1 = "Etiolation Earring",
     	--ear2 = "Gifted Earring",
@@ -470,7 +470,7 @@ function init_gear_sets()
 		main = "Espiritus",
 		sub = "Vox Grip",
 		ammo = "Sancus Sachet +1",
-		head = "Beckoner's Horn +1",
+		head = "Beckoner's Horn +2",
 		neck= "Summoner's Collar +2",
 		ear1 = "Andoaa Earring",
 		--ear2 = "Gifted Earring",
@@ -488,7 +488,7 @@ function init_gear_sets()
 		main = "Espiritus",
 		sub = "Vox Grip",
 		ammo = "Sancus Sachet +1",
-		head = "Beckoner's Horn +1",
+		head = "Beckoner's Horn +2",
 		neck= "Summoner's Collar +2",
 		ear1 = "Andoaa Earring",
 		ear2 = "Enmerkar Earring",
@@ -597,7 +597,7 @@ function init_gear_sets()
     sets.resting = {
     	main = "Chatoyant Staff",
     	ammo = "Staunch Tathlum",
-    	head = "Beckoner's Horn +1",
+    	head = "Beckoner's Horn +2",
     	neck = "Loricate Torque +1",
     	--ear1 = "Etiolation Earring",
     	ear2 = "Ethereal Earring",
@@ -615,7 +615,7 @@ function init_gear_sets()
     	main = "Gridarvor",
     	sub = "Oneiros Grip",
     	ammo = "Staunch Tathlum",
-    	head = "Beckoner's Horn +1",
+    	head = "Beckoner's Horn +2",
     	neck = "Loricate Torque +1",
     	--ear1 = "Etiolation Earring",
     	ear2 = "Ethereal Earring",
@@ -675,7 +675,7 @@ function init_gear_sets()
 		main = "Gridarvor", -- (-5 perp)
 		sub = "Oneiros Grip", -- (+1 refresh when mp<75%)
 		ammo = "Sancus Sachet +1", -- (avatar lvl 119)
-		head = "Beckoner's Horn +1", -- (+2 refresh and avatar flavor +3)
+		head = "Beckoner's Horn +2", -- (+2 refresh and avatar flavor +3)
 		neck = "Caller's Pendant", -- (avatar regain +25)
 		ear1 = "Moonshade Earring", -- (+1 refresh)
 		ear2 = "Andoaa Earring", -- (+5 summoning skill)
@@ -693,7 +693,7 @@ function init_gear_sets()
     	--main = "Terra's Staff",
     	--sub = "Oneiros Grip",
     	ammo = "Sancus Sachet +1",
-    	head = "Beckoner's Horn +1",
+    	head = "Beckoner's Horn +2",
     	neck = "Loricate Torque +1",
     	--ear1 = "Etiolation Earring",
     	ear2 = "Evans Earring",
@@ -711,7 +711,7 @@ function init_gear_sets()
     	main = "Gridarvor",
     	sub = "Oneiros Grip",
     	ammo = "Sancus Sachet +1",
-    	head = "Beckoner's Horn +1",
+    	head = "Beckoner's Horn +2",
     	neck = "Caller's Pendant",
     	--ear1 = "Etiolation Earring",
     	ear2 = "Ethereal Earring",
@@ -729,7 +729,7 @@ function init_gear_sets()
     	--main = "Terra's Staff",
     	--sub = "Oneiros Grip",
     	ammo = "Sancus Sachet +1",
-    	head = "Beckoner's Horn +1",
+    	head = "Beckoner's Horn +2",
     	neck = "Loricate Torque +1",
     	--ear1 = "Etiolation Earring",
     	ear2 = "Evans Earring",
@@ -862,7 +862,7 @@ function init_gear_sets()
     	--main = "Gridarvor",
     	--sub = "Bloodrain Strap",
     	ammo = "Sancus Sachet +1",
-    	head = "Beckoner's Horn +1",
+    	head = "Beckoner's Horn +2",
     	neck = "Shulmanu Collar",
     	ear1 = "Digni. Earring",
     	ear2 = "Telos Earring",
